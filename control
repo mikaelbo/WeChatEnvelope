@@ -1,0 +1,10 @@
+Package: com.mikaelbo.WeChatEnvelope
+Name: WeChat Envelope
+Depends: mobilesubstrate, firmware(>= 8)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: WeChat - reimagined. Jk, just a small tweak for opening red envelopes.
+Maintainer: Mikaelbo
+Author: Mikaelbo
+Section: Tweaks
+Icon: file:///Library/Application Support/WeChatEnvelope/WeChatEnvelopeBundle.bundle/Icon.png
