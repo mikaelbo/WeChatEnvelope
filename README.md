@@ -2,8 +2,6 @@
 
 A simple iOS tweak that opens red envelopes in WeChat. It's a very hacky UI based solution, which requires the chat to be visible for the envelopes to be opened. Made for research purposes, and for fun, with the help of Cycript.
 
-This tweak also re-enables the ability to use TouchID in WeChat for Jailbroken devices.
-
 ![Auto-open](https://cloud.githubusercontent.com/assets/5389084/21757423/647cc5b8-d669-11e6-8b3a-90855c444b00.gif)
 
 ## How it works
