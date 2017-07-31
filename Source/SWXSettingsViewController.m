@@ -49,18 +49,7 @@
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
-    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
-                                                                   style:UIBarButtonItemStyleDone
-                                                                  target:self
-                                                                  action:@selector(dismiss)];
-    [doneButton setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:17 weight:UIFontWeightSemibold]}
-                              forState:UIControlStateNormal];
-    self.navigationItem.rightBarButtonItem = doneButton;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-}
-
-- (void)dismiss {
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
@@ -106,7 +95,7 @@
                                                                       17)];
     versionLabel.font = [UIFont systemFontOfSize:13];
     versionLabel.textColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
-    versionLabel.text = @"Version 1.0";
+    versionLabel.text = @"Version 1.0.1";
     versionLabel.textAlignment = NSTextAlignmentCenter;
     [footerView addSubview:versionLabel];
     self.tableView.tableFooterView = footerView;

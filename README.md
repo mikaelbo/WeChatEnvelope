@@ -17,7 +17,7 @@ The tweak currently handles two corner cases:
 2. Envelope opening fails, and an alert gets shown (no internet connection for instance)
 
 ## Settings
-Long press the NavigationBar of the "Me" tab to show settings. Currently only contains a toggle for enabling/disabling the auto-open.
+Added a cell for configuration under "Settings" in the "Me" tab.
 
 ## Installation
 Make sure you have [Theos](https://github.com/theos/theos) installed (guide found [here](http://iphonedevwiki.net/index.php/Theos/Setup)), with the `$THEOS` and `$THEOS_DEVICE_IP` variables configured. 
